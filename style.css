@@ -54,7 +54,7 @@ max-width: 50%;
 .Preventbutt{
   display: block;
   margin-left: auto;
-  margin-ri
+  margin-right: auto;
 }
 /* Prevention Styling */
 #prevention-list {
@@ -108,7 +108,7 @@ dropA{
   text-decoration: none;
   display: none;
   background-color: #D2D4CB;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
 }
 .dropdown-content a {
   padding: 12px 16px;
