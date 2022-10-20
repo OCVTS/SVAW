@@ -51,7 +51,11 @@ display: block;
 max-width: 50%;
   text-align: center;
 }
-
+.Preventbutt{
+  display: block;
+  margin-left: auto;
+  margin-ri
+}
 /* Prevention Styling */
 #prevention-list {
   display: flex;
@@ -105,4 +109,9 @@ dropA{
   display: none;
   background-color: #D2D4CB;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
