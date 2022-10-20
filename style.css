@@ -50,11 +50,15 @@ display: block;
   font-size: 25px;
 max-width: 50%;
   text-align: center;
+   font-family: Arial, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
 }
 .Preventbutt{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+  width: 25%;
+padding: 12px 20px;
+margin: 8px 0;
+border-style: solid;
+border-radius: 50px;
 }
 /* Prevention Styling */
 #prevention-list {
