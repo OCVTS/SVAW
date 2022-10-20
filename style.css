@@ -1,4 +1,108 @@
+:root {
+  --red: #882635;
+  --black: #2E3532;
+  --white: #EDE2DB;
+}
+
 html, body {
   height: 100%;
   width: 100%;
+}
+
+h1, h3{
+  font-family: Arial, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+}
+body{
+  background-color: #EDE2DB;
+}
+table{
+  background-color: #D2D4CB;
+}
+a{
+  text-decoration: none;
+  color: #882635;
+}
+a:link{
+  color: #882635;
+  
+}
+a:hover {
+  color: #2E3532;
+}
+
+a:active {
+  color: #2E3532;
+}
+
+  
+
+.homie{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+text-align: center;
+  font-size: 50px;
+}
+.homiep{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 25px;
+max-width: 50%;
+  text-align: center;
+}
+
+/* Prevention Styling */
+#prevention-list {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.list-item {
+  background-color: var(--red);
+  color: var(--white);
+  width: 7.5%;
+  height: 3%;
+  margin: 0 6%;
+  text-align: center;
+  font-family: Arial, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+  flex-shrink: 0;
+}
+
+#item-description {
+  display: none;
+  background-color: white;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+}
+
+
+.dropA:hover .dropA-content{
+  display:block
+}
+.dropA-content:hover{
+  background-color: #a0a19b;
+}
+dropA{
+  position: relative;
+  display: inline-block;
+}
+.dropbtnA{
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #D2D4CB;
+  color: #882635;
+}
+.dropA-content {
+  position: absolute;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: none;
+  background-color: #D2D4CB;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
